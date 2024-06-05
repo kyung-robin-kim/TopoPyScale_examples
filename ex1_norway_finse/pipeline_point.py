@@ -5,7 +5,7 @@ print('\n ------------------------------- \n')
 print('Point Downscaling Example')
 print('\n ------------------------------- \n')
 
-config_file = './config_point.yml'
+config_file = 'config_point.yml'
 mq = tc.Topoclass(config_file)
 mq.compute_dem_param()
 mq.extract_topo_param()
